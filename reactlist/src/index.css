@@ -1,0 +1,80 @@
+.card{
+  border: 1px solid hsl(0, 0%, 80%);
+  border-radius: 10px;
+  max-width: 250px;
+  box-shadow: 5px 5px 5px hsla(0,0%, 0%, 0.1);
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  display: inline-block;
+}
+
+.card .card-img{
+  max-width: 60%;
+  /* width: 100px; */
+  height: auto;
+}
+
+.card .card-title{
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+.card .card-text{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: hsl(214, 83%, 18%);
+}
+
+.student-card{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+  background-color: hsl(214, 83%, 96%);
+  font-size: 2rem;
+  padding: 20px;
+  margin: 10px;
+  border: 1px solid hsl(214, 83%, 18%);
+}
+
+.student-card p{
+  margin: 0;
+}
+
+.welcome-message{
+  font-size: 20px;
+  background-color: green;
+  padding: 10px;
+  color: white;
+  border-radius: 2rem;
+  margin: 0;
+}
+
+.login-prompt{
+  font-size: 20px;
+  background-color: red;
+  padding: 10px;
+  color: white;
+  border-radius: 2rem;
+  margin: 0;
+}
+
+.list-category{
+  font-weight: 800;
+  font-size: 1.5em;
+  text-align: center;
+  border: 1px solid;
+  background-color: cornflowerblue;
+  padding: 10px;
+  border-radius: 2rem;
+}
+
+.list-items li{
+  text-align: center;
+  color: hsl(214, 6%, 50%);
+  margin: 0;
+  list-style: none;
+  font-size: 1em;
+}
+
+.list-items li:hover{
+  color: hsl(218, 7%, 23%);
+  cursor: pointer;
+}
